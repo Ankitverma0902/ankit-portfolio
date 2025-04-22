@@ -1,9 +1,10 @@
 const isProd = process.env.NODE_ENV === 'production';
 
-module.exports = {
+const nextConfig = {
+  output: 'export',
+  basePath: isProd ? '/ankit-portfolio' : '',
   assetPrefix: isProd ? '/ankit-portfolio/' : '',
-  images: {
-    unoptimized: true,
-  },
-  output: 'export', // Important for GitHub Pages deployment
+  trailingSlash: true,
 };
+
+module.exports = nextConfig;
