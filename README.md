@@ -1,12 +1,23 @@
-# Web simulation of UbuntuOS
+# 🐧 UbuntuOS Web Simulation - Ankit's Portfolio
 
-This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
-If you want to edit this. Clone this project and edit the files in `/src/components`.
+This is a **personal portfolio website** inspired by the **Ubuntu 20.04** desktop theme. It mimics the look and feel of an OS environment and is fully responsive.
 
-To run this on localhost
-type `npm start` and when u are done coding type `npm run build` to build your app.
+Built using:
+- **Next.js** for the React-based framework
+- **Tailwind CSS** for utility-first styling
+- **EmailJS** for handling contact form submissions
 
-_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
+---
+
+## 🔗 Live Website
+
+🚀 **View the site live:**  
+[https://ankitverma0902.github.io/ankit-portfolio](https://ankitverma0902.github.io/ankit-portfolio)
+
+---
+
+## 📁 Project Structure
+
 
 ### To make the contact form work
 
